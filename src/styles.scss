@@ -1,19 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 // Project base and component style import
-@import '~/src/assets/scss/base/index';
+@import '../src/assets/scss/base/index';
 
 // Project Specific Components
-@import '~/src/assets/scss/component/index';
+@import '../src/assets/scss/component/index';
 
 // Now other style import
-@import '~/src/assets/scss/layout/index';
-@import '~/src/assets/scss/utilities/index';
+@import '../src/assets/scss/layout/index';
+@import '../src/assets/scss/utilities/index';
 
 // Vendor base and component style import
 // Tailwind
-@import '~/src/assets/scss/vendor/tailwind-base';
-@import '~/src/assets/scss/vendor/tailwind-components';
+@import '../src/assets/scss/vendor/tailwind-base';
+@import '../src/assets/scss/vendor/tailwind-components';
 
 // Leaflet style import
 @import "../node_modules/leaflet/dist/leaflet.css"
