@@ -14,3 +14,6 @@
 // Tailwind
 @import '~/src/assets/scss/vendor/tailwind-base';
 @import '~/src/assets/scss/vendor/tailwind-components';
+
+// Leaflet style import
+@import "../node_modules/leaflet/dist/leaflet.css"
